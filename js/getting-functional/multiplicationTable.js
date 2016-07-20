@@ -15,3 +15,26 @@
 // 10  20  30  40  50  60  70  80  90 100 110 120
 // 11  22  33  44  55  66  77  88  99 110 121 132
 // 12  24  36  48  60  72  84  96 108 120 132 144
+
+function multiply(rows, cols){
+
+  var arr = [];
+
+  // Creates all rows:
+  for(var i=0; i < rows; i++){
+
+      // Creates an empty line
+      arr.push([]);
+
+      // Adds cols to the rows:
+      arr[i].push(new Array(cols));
+
+      for(var j=0; j < cols; j++){
+        // Initializes:
+        arr[i][j] = i * j;
+      }
+  }
+console.log(arr);
+return arr;
+}
+multiply(13,13);

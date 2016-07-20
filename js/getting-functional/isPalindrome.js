@@ -5,6 +5,12 @@
 
 // var str = 'racecar';
 
+var checkPalindrome = function Palindrome(string) {
+  return string.toLowerCase() == string.split('').reverse().join('').toLowerCase();
+}
+
+checkPalindrome('desserts');
+
 // Example Output
 
 // false
