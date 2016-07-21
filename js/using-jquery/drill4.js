@@ -9,8 +9,33 @@ $(function(){
     shuffleShapes();
     //shuffle shapes on click of shuffle button
     $('#shuffleThem').on('click',shuffleShapes);
+    // $('#doIt').on('click',sortShapes);
+
+
 
 });
+
+// var sortShapes = function(){
+//   var sortValue = $( "#whoDo" ).val();
+//   var whatDo = $( "#whatDo" ).val();
+
+//   switch (event) {
+//       case blue: // left
+//       if (leftPosition >= 10) {
+//         var leftPosition = leftPosition - 10;
+//         console.log(leftPosition);
+//         $(".shape").css({'left': leftPosition});
+//       };
+//       break;
+
+//       case 38: // up
+//       if (topPosition >= 10) {
+//         var topPosition = topPosition - 10;
+//         console.log(topPosition);
+//         $(".shape").css({'top': topPosition});
+//       };
+//       break;
+// }
 
 
 
